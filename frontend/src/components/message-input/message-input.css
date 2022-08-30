@@ -1,0 +1,40 @@
+.message-input {
+  position: relative;
+  width: auto;
+  margin-top: 50px;
+  padding: 0 80px;
+}
+
+.message-input textarea {
+  width: 680px;
+  height: 60px;
+  padding: 20px;
+  padding-right: 100px;
+  resize: none;
+  outline: none;
+}
+
+.message-input-btn {
+  position: absolute;
+  top: 25px;
+  right: 120px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.message-input-btn::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 50px solid rgb(13, 176, 13);
+}
